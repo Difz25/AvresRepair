@@ -1,0 +1,24 @@
+Setting:
+    Price:
+        repairhand: 150000
+        rename: 100000
+        lore: 75000
+    Command:
+        Permission:
+            main: "avresrepair.basecommand"
+    Message:
+        RepairAll:
+            completed-repairall: "[AvresRepair] All you tool's has been repaired"
+            no-money: "[AvresRepair] You money is enough to repair"
+        RepairHand:
+            completed-repairhand: "[AvresRepair] You tool's has been repaired"
+            no-money: "[AvresRepair] You money is enough to repair"
+            invalid-item: "[AvresRepair] This item cannot be repaired"
+        Rename:
+            completed-repairhand: "[AvresRepair] You tool's has been renamed"
+            no-money: "[AvresRepair] You money is enough to rename"
+            invalid-item: "[AvresRepair] This item cannot be renamed"
+        Lore:
+            completed-repairhand: "[AvresRepair] You tool's has been lore"
+            no-money: "[AvresRepair] You money is enough to lore"
+            invalid-item: "[AvresRepair] This item cannot be lore"    

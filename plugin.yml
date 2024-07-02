@@ -1,0 +1,17 @@
+name: AvresRepair
+version: 1.0.0
+api: [5.0.0]
+main: Difz25\AvresRepair\AvresRepair
+author: Difz25
+description: Plugin to repair / rename / lore you sword / armor
+commands:
+  repair:
+    description: To open the form of repair
+    usage: /repair
+    permission: avresrepair.command
+permissions:
+  avresrepair.command:
+    description: Allows the player to use the /repair command
+    default: op
+dependencies:
+  - EconomyAPI
