@@ -8,9 +8,9 @@ commands:
   repair:
     description: To open the form of repair
     usage: /repair
-    permission: avresrepair.command
+    permission: avresrepair.basecommand
 permissions:
-  avresrepair.command:
+  avresrepair.basecommand:
     description: Allows the player to use the /repair command
     default: op
 dependencies:
